@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Rätsel</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="">
+                <h1>Crate Account</h1>
+                <div class="social-icons">
+                    <a href="" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>or use your email for registrasion</span>
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <input type="submit" value="Sign Up" name="signup">
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <a href="">Forgot Your Password?</a>
+                <input type="submit" value="Sign In" name="signin">
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back</h1>
+                    <p>
+                        Enter your personal details to use all of site features
+                    </p>
+                    <input type="submit" class="hidden" value="Sign In" id="login" name="signin">
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello , Friend!</h1>
+                    <p>
+                        Register with your personal details to use all of stie features
+                    </p>
+                    <input type="submit" class="hidden" value="Sign Up" id="register" name="signup">
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
